@@ -1,0 +1,18 @@
+2026-01-28 17:05:20,408-__main__-INFO-Starting to build Pipeline...
+2026-01-28 17:05:20,467-__main__-INFO-Data Loaded and Procceessed
+2026-01-28 17:05:20,469-sentence_transformers.SentenceTransformer-INFO-Use pytorch device_name: cpu
+2026-01-28 17:05:20,470-sentence_transformers.SentenceTransformer-INFO-Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-28 17:05:29,046-chromadb.telemetry.product.posthog-INFO-Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-28 17:05:39,802-__main__-INFO-Vector Store Built successfully...
+2026-01-28 17:05:39,802-__main__-INFO-Pipeline Built Successfully...
+2026-01-28 17:30:20,879-pipeline.pipeline-INFO-Initializing Recommendation Pipeline
+2026-01-28 17:30:20,881-sentence_transformers.SentenceTransformer-INFO-Use pytorch device_name: cpu
+2026-01-28 17:30:20,882-sentence_transformers.SentenceTransformer-INFO-Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-28 17:30:28,308-chromadb.telemetry.product.posthog-INFO-Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-28 17:30:30,172-pipeline.pipeline-INFO-Pipeline initialized successfully...
+2026-01-28 17:31:21,390-pipeline.pipeline-INFO-Recieved Query: Adventure Anime like Demon Slayer
+2026-01-28 17:31:26,918-httpx-INFO-HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 17:31:29,849-httpx-INFO-HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 17:31:52,949-pipeline.pipeline-INFO-Recieved Query: haikyu
+2026-01-28 17:31:54,719-httpx-INFO-HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-28 17:31:56,449-httpx-INFO-HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
